@@ -1,0 +1,25 @@
+cmake_minimum_required(VERSION 3.6.1)
+project(OIM)
+add_executable(OIM
+			   common.h
+			   main.cpp
+			   Graph.h
+			   Graph.cpp
+			   unistd.h
+			   InfluenceDistribution.h
+			   Strategy.h
+			   Strategy.cpp
+			   Sampler.hpp
+			   SpreadSampler.h
+			   Evaluator.h
+			   Evaluator.cpp
+			   TIMEvaluator.hpp
+			   RandomEvaluator.hpp
+			   HighestDegreeEvaluator.hpp
+			   PathSampler.h
+			   SampleManager.h
+			   LogDiffusion.h
+			   graph_utils.h
+			   SingleInfluence.h
+			   BetaInfluence.h
+			   )
